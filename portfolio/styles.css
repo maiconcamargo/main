@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #ffffff; /* Texto branco */
-    background: #000000; /* Fundo preto */
+    color: #ffffff;
+    background: #000000;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background: #000000; /* Preto para o cabeçalho */
+    background: #000000;
     color: #ffffff;
     padding: 1rem 0;
     position: sticky;
@@ -48,30 +48,30 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00ff00; /* Verde para hover */
+    color: #00ff00;
 }
 
 /* Seção Hero */
 #hero {
-    background: linear-gradient(135deg, #000000, #001a00); /* Gradiente preto e verde escuro */
+    background: linear-gradient(135deg, #000000, #001a00);
     color: #ffffff;
-    padding: 150px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
 #hero h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
 #hero p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 30px;
 }
 
 .btn {
-    background: #00ff00; /* Verde para botões */
-    color: #000000; /* Texto preto */
+    background: #00ff00;
+    color: #000000;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -80,51 +80,53 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background: #00cc00; /* Verde mais escuro para hover */
+    background: #00cc00;
 }
 
 /* Seção Sobre Mim */
 #sobre {
-    padding: 80px 0;
-    background: #000000; /* Preto */
+    padding: 50px 0;
+    background: #000000;
 }
 
 .sobre-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    text-align: center;
 }
 
 .foto-perfil {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #00ff00; /* Verde para a borda da foto */
+    border: 4px solid #00ff00;
 }
 
 .sobre-content p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #e0e0e0; /* Cinza claro para o texto */
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
 }
 
 /* Serviços */
 #servicos {
-    padding: 80px 0;
-    background: #001a00; /* Verde escuro */
+    padding: 50px 0;
+    background: #001a00;
 }
 
 .servicos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
 
 .servico {
     text-align: center;
-    padding: 30px;
-    background: #000000; /* Preto */
+    padding: 20px;
+    background: #000000;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -136,32 +138,32 @@ nav ul li a:hover {
 }
 
 .servico i {
-    font-size: 2.5rem;
-    color: #00ff00; /* Verde para ícones */
-    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #00ff00;
+    margin-bottom: 15px;
 }
 
 .servico h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: #ffffff;
 }
 
 .servico p {
-    font-size: 1rem;
-    color: #e0e0e0; /* Cinza claro para o texto */
+    font-size: 0.9rem;
+    color: #e0e0e0;
 }
 
 /* Portfólio */
 #portfolio {
-    padding: 80px 0;
-    background: #000000; /* Preto */
+    padding: 50px 0;
+    background: #000000;
 }
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .projeto {
@@ -189,7 +191,7 @@ nav ul li a:hover {
     right: 0;
     background: rgba(0, 0, 0, 0.8);
     color: #ffffff;
-    padding: 20px;
+    padding: 15px;
     transition: bottom 0.3s;
 }
 
@@ -198,25 +200,25 @@ nav ul li a:hover {
 }
 
 .projeto-info h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
 .projeto-info p {
-    font-size: 1rem;
-    margin-bottom: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
 }
 
 /* Contato */
 #contato {
-    padding: 80px 0;
-    background: #001a00; /* Verde escuro */
+    padding: 50px 0;
+    background: #001a00;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 form input, form textarea {
@@ -224,13 +226,13 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    background: #000000; /* Preto para campos de formulário */
+    background: #000000;
     color: #ffffff;
 }
 
 form button {
-    background: #00ff00; /* Verde para botões */
-    color: #000000; /* Texto preto */
+    background: #00ff00;
+    color: #000000;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -240,12 +242,12 @@ form button {
 }
 
 form button:hover {
-    background: #00cc00; /* Verde mais escuro para hover */
+    background: #00cc00;
 }
 
 /* Rodapé */
 footer {
-    background: #001a00; /* Verde escuro */
+    background: #001a00;
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
@@ -270,5 +272,42 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #00ff00; /* Verde para hover */
+    color: #00ff00;
+}
+
+/* Media Queries para Telas Pequenas */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+
+    #hero p {
+        font-size: 0.9rem;
+    }
+
+    .sobre-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        width: 120px;
+        height: 120px;
+    }
+
+    .servicos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
 }
