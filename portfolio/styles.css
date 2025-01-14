@@ -100,7 +100,6 @@ nav ul li a:hover {
 .foto-perfil {
     width: 150px;
     height: 150px;
-    object-fit: cover;
 }
 
 .sobre-content p {
